@@ -38,23 +38,23 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'Unlegit',
+      name: 'unlegit',
       link: '76561197960276740',
     },
     {
-      name: 'Runs',
+      name: '#actuallyrawdogger',
       link: '76561198193201687',
     },
     {
-      name: 'Your',
+      name: '7!!',
       link: '76561198016198032',
     },
     {
-      name: 'Dox',
+      name: 'disbute',
       link: '76561199079530557',
     },
     {
-      name: '<3',
+      name: 'opens',
       link: '76561197975672336',
     },
   ];
@@ -75,7 +75,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['Unlegit', 'Neso', 'ky', 'Millz', 'Vanish', '=', 'unlegit is cute <3', 'Song name: back2u - lieu']);
+  app.titleChanger(['Unlegit', 'Neso', 'ky', 'Millz', 'Vanish', '=', 'unlegit is cute <3', 'Song name: DBangz - 3 In Da Morn']);
   app.iconChanger(['assets/icons/roses/rose1.jpg', 'assets/icons/roses/rose2.jpg', 'assets/icons/roses/rose3.jpg', 'assets/icons/roses/rose4.jpg', 'assets/icons/roses/rose5.jpg', 'assets/icons/roses/rose6.jpg', 'assets/icons/roses/rose7.jpg', 'assets/icons/roses/rose8.jpg', 'assets/icons/roses/rose1.jpg']);
 });
 
@@ -152,7 +152,7 @@ const writeLine = (text, speed, timeout, callback) => {
 };
 
 $.getJSON(ipgeolocation, (data) => {
-  writeLine(['Authenticating...', "Granting access to <span style='font-size: 14px; color: #06d;'>[unknown]</span>..."], 30, () => {
+  writeLine(['Authenticating...', "Granting access to <span style='font-size: 14px; color: #06d; background: url(https://static.cracked.to/images/bg1.gif);'> [unknown]</span>..."], 30, () => {
     if (app.skippedIntro) return;
 
     clearCursor();
@@ -162,12 +162,12 @@ $.getJSON(ipgeolocation, (data) => {
     const ip = data.ip ? data.ip : usernames[Math.floor(Math.random() * usernames.length)];
     const country = data.country_name ? data.country_name : 'your country';
 
-    writeLine([`Access granted! <span style='font-size: 14px; color: #0f0;'>[success]</span>`, `Welcome back, <i style='color: #0f0'>${ip}</i>! By the way, nice to see someone from ${country} here!`], 30, 500, () => {
+    writeLine([`Access granted! <span style='font-size: 14px; color: #0f0; background: url(https://static.cracked.to/images/bg1.gif);'>[success]</span>`, `Welcome back, <i style='color: #0f0; background: url(https://static.cracked.to/images/bg1.gif);'>${ip}</i>! By the way, nice to see someone from ${country} here!`], 30, 500, () => {
       if (app.skippedIntro) return;
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459'>unlegit#9999 loves you ღღღ</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459; background: url(https://static.cracked.to/images/bg1.gif);'>unlegit#9999 loves you ღღღ</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
