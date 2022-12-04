@@ -39,23 +39,23 @@ $(document).ready(() => {
   const links = [
     {
       name: 'unlegit',
-      link: '76561197960276740',
+      link: 'antic0n',
     },
     {
       name: '#actuallyrawdogger',
-      link: '76561198193201687',
+      link: 'antic0n',
     },
     {
       name: '7!!',
-      link: '76561198016198032',
+      link: 'antic0n',
     },
     {
       name: 'disbute',
-      link: '76561199079530557',
+      link: 'antic0n',
     },
     {
       name: 'opens',
-      link: '76561197975672336',
+      link: 'antic0n',
     },
   ];
 
