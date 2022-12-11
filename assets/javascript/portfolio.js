@@ -75,7 +75,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['Unlegit', 'Neso', 'ky', 'Millz', 'Vanish', '=', 'unlegit is cute <3', 'Song name: DBangz - 3 In Da Morn']);
+  app.titleChanger(['Unlegit', 'Neso', 'ky', 'Millz', 'Vanish', '=', 'unlegit#9999']);
   app.iconChanger(['assets/icons/roses/rose1.jpg', 'assets/icons/roses/rose2.jpg', 'assets/icons/roses/rose3.jpg', 'assets/icons/roses/rose4.jpg', 'assets/icons/roses/rose5.jpg', 'assets/icons/roses/rose6.jpg', 'assets/icons/roses/rose7.jpg', 'assets/icons/roses/rose8.jpg', 'assets/icons/roses/rose1.jpg']);
 });
 
