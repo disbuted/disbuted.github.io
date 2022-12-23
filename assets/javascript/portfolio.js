@@ -38,7 +38,7 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'unlegit',
+      name: 'pma',
       link: 'antic0n',
     },
     {
@@ -47,7 +47,7 @@ $(document).ready(() => {
     },
     {
       name: '7!!',
-      link: 'antic0n',
+      link: 'antic0n',	
     },
     {
       name: 'disbute',
@@ -75,7 +75,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['Unlegit', 'Neso', 'ky', 'Millz', 'Vanish', '=', 'unlegit#9999']);
+  app.titleChanger(['pma', 'neso', 'ky', 'millz', '/choke', '=', 'pma is cute <3', 'Song name: SIGIL WITCHES']);
   app.iconChanger(['assets/icons/roses/rose1.jpg', 'assets/icons/roses/rose2.jpg', 'assets/icons/roses/rose3.jpg', 'assets/icons/roses/rose4.jpg', 'assets/icons/roses/rose5.jpg', 'assets/icons/roses/rose6.jpg', 'assets/icons/roses/rose7.jpg', 'assets/icons/roses/rose8.jpg', 'assets/icons/roses/rose1.jpg']);
 });
 
@@ -167,7 +167,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459; background: url(https://static.cracked.to/images/bg1.gif);'>unlegit#9999 loves you ღღღ</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459; background: url(https://static.cracked.to/images/bg1.gif);'>pma#0001 loves you ღღღ</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
@@ -251,4 +251,3 @@ const skipIntro = () => {
 const clearCursor = () => {
   return $('span').siblings('.typed-cursor').css('opacity', '0');
 };
-
