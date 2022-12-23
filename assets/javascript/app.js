@@ -12,7 +12,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['beaming egirls', 'dh locker', 'xiniu runs your ip', 'trashtalkers', 'pma fanboys', 'legalize psychedelic drugs'];
+  brandDescription = ['beaming egirls', 'dh locker', 'xiniu runs your ip', 'trashtalkers', 'pma fanboys', 'legalize psychedelic drugs','@murdacore on ig',];
 
   titleChanger = (text, delay) => {
     if (!text) return;
