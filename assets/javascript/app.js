@@ -12,7 +12,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['beaming egirls', 'pro dh raider', 'xiniu runs your ip', 'trashtalkers', 'unlegit fanboys', 'hvh is for fags'];
+  brandDescription = ['beaming egirls', 'dh locker', 'xiniu runs your ip', 'trashtalkers', 'pma fanboys', 'hvh is for fags'];
 
   titleChanger = (text, delay) => {
     if (!text) return;
