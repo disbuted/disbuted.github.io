@@ -39,23 +39,23 @@ $(document).ready(() => {
   const links = [
     {
       name: 'pma',
-      link: 'antic0n',
+      link: 'murdacore',
     },
     {
       name: '#actuallyrawdogger',
-      link: 'antic0n',
+      link: 'murdacore',
     },
     {
       name: '7!!',
-      link: 'antic0n',	
+      link: 'murdacore',	
     },
     {
       name: 'disbute',
-      link: 'antic0n',
+      link: 'murdacore',
     },
     {
       name: 'opens',
-      link: 'antic0n',
+      link: 'murdacore',
     },
   ];
 
