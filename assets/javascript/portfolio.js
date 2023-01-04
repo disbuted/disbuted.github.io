@@ -167,7 +167,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459; background: url(https://static.cracked.to/images/bg1.gif);'>pma#0001 loves you ღღღ</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459; background: url(https://static.cracked.to/images/bg1.gif);'>pma#0001 loves you <3</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
