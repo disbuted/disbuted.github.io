@@ -27,6 +27,8 @@ GitHub: https://github.com/Lumm1t/obnoxious.club
 
 */
 
+
+
 'use strict';
 
 const ipgeolocation = 'https://api.ipgeolocation.io/ipgeo?apiKey=3fe3da60084a401e90b36f93c8f3683e';
