@@ -107,7 +107,7 @@ $('html').on('contextmenu', (event) => {
 
   const trollfaceLight = app.skippedIntro ? '' : 'trollface-light';
 
-  img.src = 'assets/others/trollface.jpg';
+  img.src = 'assets/others/sigil.gif';
   img.width = 64;
   img.height = 64;
   img.alt = 'obnoxious.club';
