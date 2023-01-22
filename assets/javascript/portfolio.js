@@ -39,30 +39,30 @@ $(document).ready(() => {
   const links = [
     {
       name: 'pma',
-      link: 'murdacore',
+      link: '2016899828',
     },
     {
       name: '#actuallyrawdogger',
-      link: 'murdacore',
+      link: '2016899828',
     },
     {
       name: '7!!',
-      link: 'murdacore',	
+      link: '2016899828',	
     },
     {
       name: 'disbute',
-      link: 'murdacore',
+      link: '2016899828',
     },
     {
       name: 'opens',
-      link: 'murdacore',
+      link: '2016899828',
     },
   ];
 
   for (let i in links) {
     let link = links[i];
 
-    $('#marquee').append(`<a href="https://steamcommunity.com/id/${link.link}" target="_BLANK">${link.name}</a>`);
+    $('#marquee').append(`<a href="https://www.roblox.com/users/${link.link}/profile" target="_BLANK">${link.name}</a>`);
 
     link = $('#marquee').children('a').last();
 
