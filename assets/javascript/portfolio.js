@@ -75,7 +75,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['pma', 'neso', 'ky', 'millz', '/choke', '=', 'pma is cute <3', 'Song name: SIGIL WITCHES']);
+  app.titleChanger(['pma', 'neso', 'ky', 'millz', '/choke', '=', 'pma is cute <3', 'Song name: BABAYAGA']);
   app.iconChanger(['assets/icons/roses/rose1.jpg', 'assets/icons/roses/rose2.jpg', 'assets/icons/roses/rose3.jpg', 'assets/icons/roses/rose4.jpg', 'assets/icons/roses/rose5.jpg', 'assets/icons/roses/rose6.jpg', 'assets/icons/roses/rose7.jpg', 'assets/icons/roses/rose8.jpg', 'assets/icons/roses/rose1.jpg']);
 });
 
