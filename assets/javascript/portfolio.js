@@ -21,20 +21,16 @@ $(document).ready(() => {
       link: '2016899828',
     },
     {
-      name: '#actuallyrawdogger',
-      link: '2016899828',
+      name: 'Vuuliee',
+      link: '959290933',
     },
     {
-      name: '7!!',
-      link: '2016899828',	
+      name: 'stooz',
+      link: '205099362',	
     },
     {
-      name: 'disbute',
-      link: '2016899828',
-    },
-    {
-      name: 'opens',
-      link: '2016899828',
+      name: 'kalun',
+      link: '3687789875',
     },
   ];
 
@@ -54,7 +50,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['pma', 'Vuuliee', 'stooz', 'kalun', '$A', '=', 'Song name: 5G Melts My Brain']);
+  app.titleChanger(['pma', 'Vuuliee', 'stooz', 'kalun', '=', 'Song name: 5G Melts My Brain']);
   app.iconChanger(['assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png']);
 });
 
