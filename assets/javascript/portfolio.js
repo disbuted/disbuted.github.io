@@ -50,7 +50,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['pma', 'Vuuliee', 'stooz', 'kalun', '=', 'Song name: 5G Melts My Brain']);
+  app.titleChanger(['pma', 'Vuuliee', 'stooz', 'kalun', '=', 'Song name: GAME OVER']);
   app.iconChanger(['assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png']);
 });
 
