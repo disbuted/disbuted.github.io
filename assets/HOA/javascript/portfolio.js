@@ -41,17 +41,17 @@ $(document).ready(() => {
 
     link = $('#marquee').children('a').last();
 
-    if (i != links.length - 1) $('#marquee').append(' <img class="emoticon" src="assets/others/mgh_17.png"> ');
+    if (i != links.length - 1) $('#marquee').append(' <img class="emoticon" src="assets/HOA/others/mgh_17.png"> ');
   }
 
   if (mobileAndTabletCheck()) {
-    $('#background').replaceWith('<div id="background" style="background-image: url(assets/images/mobile-background.jpg);"></div>');
+    $('#background').replaceWith('<div id="background" style="background-image: url(assets/HOA/images/mobile-background.jpg);"></div>');
 
     app.shouldIgnoreVideo = true;
   }
 
   app.titleChanger(['pma', 'Vuuliee', 'stooz', 'kalun', '=', 'Song name: GAME OVER']);
-  app.iconChanger(['assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png']);
+  app.iconChanger(['assets/HOA/others/x.png', 'assets/HOA/oothers/x.png', 'assets/HOA/oothers/x.png', 'assets/HOA/others/x.png', 'assets/HOA/others/x.png', 'aassets/HOA/others/x.png', 'assets/HOA/others/x.png', 'assets/HOA/others/x.png', 'assets/HOA/others/x.png']);
 });
 
 if ($.cookie('videoTime')) {
@@ -82,7 +82,7 @@ $('html').on('contextmenu', (event) => {
 
   const trollfaceLight = app.skippedIntro ? '' : 'trollface-light';
 
-  img.src = 'assets/others/sigil.gif';
+  img.src = 'assets/HOA/others/sigil.gif';
   img.width = 64;
   img.height = 64;
   img.alt = 'obnoxious.club';
@@ -112,52 +112,6 @@ $.fn.extend({
   },
 });
 
-const writeLine = (text, speed, timeout, callback) => {
-  timeout = typeof timeout === 'number' ? timeout : [0, (callback = timeout)];
-
-  const lineNumber = app.id !== 2 ? ++app.id : (app.id += 2);
-
-  setTimeout(() => {
-    const typed = new Typed(`#line${lineNumber}`, {
-      strings: text,
-      typeSpeed: speed,
-      onComplete: callback,
-    });
-  }, timeout);
-};
-
-$.getJSON(ipgeolocation, (data) => {
-  writeLine(['Authenticating...', "Granting access to <span style='font-size: 14px; color: #06d; background: url(https://static.cracked.to/images/bg1.gif);'> [unknown]</span>..."], 30, () => {
-    if (app.skippedIntro) return;
-
-    clearCursor();
-
-    const usernames = ['user', 'dude'];
-
-    const ip = data.ip ? data.ip : usernames[Math.floor(Math.random() * usernames.length)];
-    const country = data.country_name ? data.country_name : 'your country';
-
-    writeLine([`Access granted! <span style='font-size: 14px; color: #0f0; background: url(https://static.cracked.to/images/bg1.gif);'>[success]</span>`, `Welcome back, <i style='color: #0f0; background: url(https://static.cracked.to/images/bg1.gif);'>${ip}</i>! By the way, nice to see someone from ${country} here!`], 30, 500, () => {
-      if (app.skippedIntro) return;
-
-      clearCursor();
-
-      writeLine([`<i style='color: #F62459; background: url(https://static.cracked.to/images/bg1.gif);'>pma#0001 loves you <3</i>`], 120, 500, () => {
-        timeouts.push(
-          setTimeout(() => {
-            if (app.skippedIntro) return;
-
-            clearCursor();
-
-            setTimeout(() => {
-              skipIntro();
-            }, 500);
-          }, 1000)
-        );
-      });
-    });
-  });
-});
 
 const skipIntro = () => {
   if (app.skippedIntro) return;
