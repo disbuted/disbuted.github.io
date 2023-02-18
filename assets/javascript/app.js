@@ -12,7 +12,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['beaming egirls', 'ex dh locker', 'stooz is an whore', 'xin1u runs your 1s', 'emmie >> you','@murdacore',];
+  brandDescription = ['beaming egirls', 'ex dh locker', 'stooz is an whore', 'xin1u runs your 1s', '@murdacore','#764',];
 
   titleChanger = (text, delay) => {
     if (!text) return;
