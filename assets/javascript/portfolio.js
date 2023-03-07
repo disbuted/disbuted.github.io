@@ -18,19 +18,19 @@ $(document).ready(() => {
   const links = [
     {
       name: 'pma',
-      link: '2016899828',
+      link: '2016899828', 
     },
     {
-      name: 'Vuuliee',
-      link: '959290933',
+      name: 'Izzy',
+      link: '994781249',
     },
     {
-      name: 'stooz',
-      link: '205099362',	
+      name: '$A',
+      link: '1875266532',	
     },
     {
-      name: 'kalun',
-      link: '3687789875',
+      name: 'FZO',
+      link: '154583591',
     },
   ];
 
