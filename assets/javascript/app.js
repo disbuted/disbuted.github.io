@@ -4,12 +4,12 @@ class _app {
   videoElement = null;
   audioElement = null;
   musicVolume = 0.12;
-  musicFadeIn = 4000;
+  musicFadeIn = 5000;
   skippedIntro = false;
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['beaming egirls', 'ex dh locker', 'stooz is an whore', 'xin1u runs your 1s', '@murdacore','#764',];
+  brandDescription = ['streamable dev', '1x star', 'imma leak ur lock', 'izzy loves eboys', '@murdacore','#764',];
 
   titleChanger = (text, delay) => {
     if (!text) return;

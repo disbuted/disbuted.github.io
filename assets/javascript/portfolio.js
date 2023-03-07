@@ -21,7 +21,7 @@ $(document).ready(() => {
       link: '2016899828', 
     },
     {
-      name: 'Izzy',
+      name: 'izzy',
       link: '994781249',
     },
     {
@@ -29,7 +29,7 @@ $(document).ready(() => {
       link: '1875266532',	
     },
     {
-      name: 'FZO',
+      name: 'fzo',
       link: '154583591',
     },
   ];
@@ -50,7 +50,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['pma', 'Vuuliee', 'stooz', 'kalun']);
+  app.titleChanger(['pma', 'izzy', '$A', 'fzo']);
   app.iconChanger(['assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png']);
 });
 
@@ -142,7 +142,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459; background: url(https://static.cracked.to/images/bg1.gif);'>pma#0001 loves you <3</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459;'>pma#0001 loves you <3</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
