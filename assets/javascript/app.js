@@ -9,7 +9,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['streamable dev', '1x star', 'imma leak ur lock', 'im obsessed with her', '@murdacore','#764',];
+  brandDescription = ['ex dev', '1x star', 'quite com', 'im obsessed with her', '@murdacore','song: teeth (you) - re6ce'];
 
   titleChanger = (text, delay) => {
     if (!text) return;

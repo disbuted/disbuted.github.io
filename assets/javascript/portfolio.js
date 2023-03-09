@@ -32,6 +32,10 @@ $(document).ready(() => {
       name: 'fzo',
       link: '154583591',
     },
+   {
+      name: 'flxwnt',
+      link: '3916007243',
+    },
   ];
 
   for (let i in links) {
@@ -50,7 +54,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['pma', 'izzy', '$A', 'fzo']);
+  app.titleChanger(['pma', 'izzy', '$A', 'fzo','fflxwnt']);
   app.iconChanger(['assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png']);
 });
 
