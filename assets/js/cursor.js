@@ -17,7 +17,7 @@ if(Math.random()>probability){return;}
 function get_random_color(){let c=[];c[0]=255;c[1]=Math.floor(Math.random()*256);c[2]=Math.floor(Math.random()*(256-c[1]/2));c.sort(function(){return(0.5-Math.random());});return("rgb("+c[0]+", "+c[1]+", "+c[2]+")");}
 let min_lifetime=sparkle_lifetime*2+1;let min_index=NaN;for(let i=0;i<sparkles;i++){if(!star_remaining_ticks[i]){min_lifetime=null;min_index=i;break;}else if(star_remaining_ticks[i]<min_lifetime){min_lifetime=star_remaining_ticks[i];min_index=i;}}
 if(min_lifetime){star_to_tiny(min_index);}
-if(min_index>=0){star_remaining_ticks[min_index]=sparkle_lifetime*2;star_x[min_index]=x;star[min_index].style.left=x+"px";star_y[min_index]=y;star[min_index].style.top=y+"px";star[min_index].style.clip="rect(0px, 5px, 5px, 0px)";star[min_index].childNodes[0].style.backgroundColor=star[min_index].childNodes[1].style.backgroundColor="#fff";star[min_index].style.visibility="visible";return min_index}}
+if(min_index>=0){star_remaining_ticks[min_index]=sparkle_lifetime*2;star_x[min_index]=x;star[min_index].style.left=x+"px";star_y[min_index]=y;star[min_index].style.top=y+"px";star[min_index].style.clip="rect(0px, 5px, 5px, 0px)";star[min_index].childNodes[0].style.backgroundColor=star[min_index].childNodes[1].style.backgroundColor="#FFFFFF";star[min_index].style.visibility="visible";return min_index}}
 function update_star(i){if(star_remaining_ticks[i]===null){return false;}
 star_remaining_ticks[i]-=1;if(star_remaining_ticks[i]===0){star_to_tiny(i);return false;}
 if(star_remaining_ticks[i]===sparkle_lifetime){star[i].style.clip="rect(1px, 4px, 4px, 1px)"}
