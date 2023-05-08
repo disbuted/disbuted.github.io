@@ -7,3 +7,12 @@ body{background-color:#000;font-family:pr;color:#fff}@font-face{font-family:mc;s
   -o-animation: fadeIn 5s;
   -ms-animation: fadeIn 5s;
 }
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
