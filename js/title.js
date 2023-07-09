@@ -12,4 +12,4 @@ function animateTitle(Title, delay) {
     }, delay)
 }
   
-  animateTitle('@abused.lol', 300);
+  animateTitle('@abused.lol', 450);
