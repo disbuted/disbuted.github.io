@@ -1,29 +1,20 @@
-
+// to change names or bio, change the title and content
+// you can also change class names since i have those as the name rn but you will have to change em in the index.html too
 const nameData = {
     ego: {
-      title: 'lurkingclose',
-      content: 'ego is a big cutie',
+      title: '@ego',
+      content: 'womp womp',
     },
-    haz: {
-      title: 'hazbae',
-      content: 'bro said nein when i asked him what he wants this to be',
+    a1mview: {
+      title: '@a1mview',
+      content: 'celestial go brr',
     },
     tnk: {
-      title: '@chromeberreta',
-      content: 'content creator',
+      title: '@tnk',
+      content: 'started locking bcs @ego',
     },
-    restrict: {
-      title: 'restrict',
-      content: '@paywithblood',
-    },
-    restrict: {
-      title: 'restrict',
-      content: '@paywithblood',
-    },
-
   };
   // Hello from salmon to anyone skidding this site :D
-  // Hi salmon! i skidded this :( sorry
   const nameLinks = document.querySelectorAll('.names a');
   nameLinks.forEach(link => {
     link.addEventListener('click', () => {
