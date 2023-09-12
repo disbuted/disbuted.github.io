@@ -190,6 +190,7 @@ video{
 }
 #bgvid{
     top:50%;
+object-fit: fill;
 }
 [class~=noselect],[class~=snowflake]{
     -ms-user-select:none;
@@ -202,6 +203,7 @@ video{
 }
 #bgvid{
     left:50%;
+object-fit: fill;
 }
 [class~=snowflake]{
     cursor:default;
@@ -214,6 +216,7 @@ video{
 }
 #bgvid{
     min-width:100%;
+object-fit: fill;
 }
 [class~=snowflake]{
     -webkit-animation-duration:10s,3s;
@@ -259,6 +262,7 @@ video{
 }
 #bgvid{
     min-height:100%;
+object-fit: fill;
 }
 .snowflake:nth-of-type(5){
     left:50%;
@@ -292,15 +296,18 @@ video{
 }
 #bgvid{
     width:auto;
+object-fit: fill;
 }
 [class~=snowflake]:nth-of-type(6){
     -webkit-animation-delay:6s,2s;
 }
 #bgvid{
     height:auto;
+object-fit: fill;
 }
 #bgvid{
     z-index:-100;
+object-fit: fill;
 }
 [class~=snowflake]:nth-of-type(6){
     animation-delay:6s,2s;
@@ -319,6 +326,7 @@ video{
 }
 #bgvid{
     -webkit-transform:translateX(-50%) translateY(-50%);
+object-fit: fill;
 }
 .snowflake:nth-of-type(8){
     -webkit-animation-delay:1s,0s;
@@ -340,9 +348,11 @@ video{
 }
 #bgvid{
     transform:translateX(-50%) translateY(-50%);
+object-fit: fill;
 }
 #bgvid{
     background-size:cover;
+object-fit: fill;
 }
 [class~=fade-in-text]{
     -moz-animation:fadeIn 5s;
@@ -370,6 +380,7 @@ video{
 }
 video{
     left:0;
+object-fit: fill;
 }
 [class~=snowflake]:nth-of-type(11){
     -webkit-animation-delay:4s,2.5s;
