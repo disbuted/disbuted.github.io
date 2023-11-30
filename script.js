@@ -3,7 +3,7 @@ var mainContent = document.getElementById("mainContent");
 var audioPlayer = document.getElementById("audioPlayer");
 var musicStatus = document.getElementById("musicStatus");
 var progressBar = document.getElementById("progressBar");
-audioPlayer.volume = 0.3;
+
 
 var progressBarInterval; // Variable to store the interval reference
 
@@ -46,5 +46,6 @@ document.body.addEventListener("click", function () {
     video.style.display = "block";
     video.play();
   });
+
 
 

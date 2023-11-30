@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=IBM%20Plex%20Mono:wght@400;700&amp;display=swap");
 
 * {
   margin: 0;
@@ -124,6 +125,7 @@ body {
 #enterButton {
   width: 100%;
   height: 100%;
+  font-family: "IBM Plex Mono";
 }
 
 @keyframes fade-in {
@@ -252,6 +254,7 @@ button:hover {
 .hover-text{
     position:relative;
     display:inline-block
+    font-family: "IBM Plex Mono";
 }
 .hover-text::after{
     content:attr(data-hover-text);
@@ -266,6 +269,7 @@ button:hover {
     font-size:14px;
     opacity:0;
     transition:opacity .3s ease-in-out
+    font-family: "IBM Plex Mono";
 }
 .hover-text.active::after,.hover-text:hover::after{
     opacity:1
