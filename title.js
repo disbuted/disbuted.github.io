@@ -3,5 +3,5 @@
     setTimeout(function () {
       titleScroller(text.substr(1) + text.substr(0, 1));
     }, 500);
-  }("abused.lol "));
+  }("victimize.lol "));
   window.oncontextmenu=function(){console.log("Stop Trying To Skid... -ego :D");return false;}
