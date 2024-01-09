@@ -22,7 +22,14 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Poppins"
     />
+	<link
+	  href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+	  rel="stylesheet"
+	/>
     <link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="snow.css" />
+
+	
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 	
 	    <style>
@@ -45,13 +52,26 @@
         font-size: 9px;
 		}
 		
+						.click_anywhere {
+					margin: 0;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+				}
+		
 		
 			  
     </style>
 	
-	
+				<script>
+				if (navigator.userAgent.match(/Mobile|Phone|Galaxy|Nest Hub|Pixel/)) {
+					document.querySelector('#__click_anywhere_text').textContent = '[Tap to Enter]'
+				}
+			</script>
 	
     <title>victimize.lol</title>
+	<div class="snow-container"></div>
   </head>
   <body>
   
@@ -79,6 +99,8 @@
             draggable="false"
           />
          <p class="username">ego</p>
+		 
+		 
 		  <img src="https://media.discordapp.net/attachments/1124831801232330753/1180557121218154496/1177745561236025455.png" style="width: 30px; height: 30px;" alt="Premium" > 
           <p class="bio-text">		
             veni vidi vici<br />
@@ -170,10 +192,14 @@
 	
     <script src="rocket-loader.min.js" defer></script>
     <script src="script.js"></script>
-    <script src="snow.js"></script>
+    <script src="snow2.js"></script>
     <script src="protect.js"></script>
     <script src="copy.js"></script>
     <script src="title.js"></script>
+	<script
+	type="3a1283a3d88c1a6dd4a683f4-text/javascript"
+	src="typewriter.js"
+	></script>
   </body>
   <footer>@victimize.lol all rights reserved 2024</footer>
 </html>
