@@ -2,13 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM%20Plex%20Mono:wght@400;700&amp;display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
+   margin: 0;
+   padding: 0;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -o-user-select: none;
-  user-select: none;
+   user-select: none;
 }
 
 html {
@@ -24,6 +24,7 @@ body {
   background-attachment: fixed;
 }
 
+
 .center {
   margin: 0 auto;
   text-align: center;
@@ -32,14 +33,14 @@ body {
 
 .bio-text {
   font-size: 16px;
-  animation: up 2s;
+  animation: up 4s;
   font-weight: 500;
   color: #f1f1f1bd;
   margin-bottom: 15px;
 }
 
 .username {
-  animation: up 2s;
+  animation: up 4s;
   font-size: 24px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -53,7 +54,7 @@ body {
 
 .social-icons {
   font-size: 28px;
-  transition: 0.2s ease-in-out;
+  transition: 0.4s ease-in-out;
   padding: 0 2px;
   color: #e4e9ff;
 }
@@ -63,7 +64,7 @@ body {
 }
 
 .pfp-image {
-  animation: down 2s;
+  animation: down 4s;
   border-radius: 100%;
   object-fit: cover;
   display: block;
@@ -85,19 +86,19 @@ body {
 
 .blur {
   background: rgba(35, 37, 36, 0.1);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  -moz-backdrop-filter: blur(8px);
-  -ms-backdrop-filter: blur(8px);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
   border: 2px solid rgba(0, 0, 0, 0.2);
   margin: auto;
   padding: 10px 0;
   border-radius: 10px;
   -webkit-animation: fadein 4s;
-  -moz-animation: fadein 2s;
-  -ms-animation: fadein 2s;
-  -o-animation: fadein 2s;
-  animation: fadein 2s;
+  -moz-animation: fadein 4s;
+  -ms-animation: fadein 4s;
+  -o-animation: fadein 4s;
+  animation: fadein 4s;
   -webkit-box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.75);
   box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.75);
@@ -118,7 +119,7 @@ body {
 .pfp-image,
 .username,
 .socials {
-  animation: fadein 2s;
+  animation: fadein 4s;
 }
 
 #enterButton {
@@ -146,7 +147,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 button {
@@ -267,7 +268,7 @@ button:hover {
     border-radius:5px;
     font-size:14px;
     opacity:0;
-    transition:opacity .3s ease-in-out
+    transition:opacity .4s ease-in-out
     font-family: "IBM Plex Mono";
 }
 .hover-text.active::after,.hover-text:hover::after{
@@ -275,7 +276,7 @@ button:hover {
 }
 
 .discord-widget {
-    animation: up 2s;
+    animation: up 4s;
     padding: 5px 5px;
     width: 65%;
     text-align: center;
