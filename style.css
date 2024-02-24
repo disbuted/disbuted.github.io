@@ -354,3 +354,7 @@ button:hover {
     content: "\f002";
 }
 
+.items-center {
+	align-items: center;
+}
+
