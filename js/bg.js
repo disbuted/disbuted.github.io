@@ -1,4 +1,4 @@
-var enterButton = document.getElementById("enterButton");
+var enterButton = document.getElementById("overlay");
 var mainContent = document.getElementById("mainContent");
 var audioPlayer = document.getElementById("audioPlayer");
 var musicStatus = document.getElementById("musicStatus");
